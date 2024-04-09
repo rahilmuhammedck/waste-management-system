@@ -1,0 +1,129 @@
+/* Reset default margin and padding */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set default font family */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg'); /* Add fixed background image for both pages */
+    background-size: cover;
+    background-attachment: fixed; /* Ensure the background image stays fixed while scrolling */
+}
+
+/* Container for header, main, and footer */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for header */
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main styles */
+main {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for main content */
+    color: #fff;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+section p {
+    margin: 0;
+}
+
+section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for footer */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Login and Sign-up page styles */
+form {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for forms */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button, .signup-link {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff; /* Blue color for button */
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none; /* Remove underline for signup link */
+    display: inline-block; /* Display inline with button */
+    text-align: center; /* Center text */
+    margin-top: 10px; /* Add space between button and signup link */
+}
+
+button:hover, .signup-link:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+}
