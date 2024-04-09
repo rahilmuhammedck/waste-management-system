@@ -1,0 +1,65 @@
+/* Reset default margin and padding */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set default font family */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Container for header, main, and footer */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for header */
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.login-btn {
+    color: #fff;
+    background-color: #007bff; /* Blue color for login button */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+/* Main styles */
+main {
+    background-image: url('welcome_background.jpg'); /* Add fixed background image for main */
+    background-size: cover;
+    background-attachment: fixed; /* Ensure the background image stays fixed while scrolling */
+    padding: 20px;
+    color: #fff;
+    overflow-y: auto; /* Enable vertical scrolling for main content */
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+section p {
+    margin: 0;
+}
