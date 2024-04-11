@@ -1,0 +1,65 @@
+/* Reset default margin and padding */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set default font family */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('dashboard-background.jpg'); /* Add background image */
+    background-size: cover;
+    background-attachment: fixed; /* Ensure the background image stays fixed while scrolling */
+}
+
+/* Container for header, main, and footer */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #fff; /* Set text color to white */
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for form */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
