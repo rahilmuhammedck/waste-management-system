@@ -1,0 +1,43 @@
+/* Reset default margin and padding */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set default font family */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('collector-background.jpg'); /* Add background image */
+    background-size: cover;
+    background-attachment: fixed; /* Ensure the background image stays fixed while scrolling */
+}
+
+/* Container for dashboard content */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for dashboard content */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Styling for user details */
+#user-details {
+    margin-top: 20px;
+}
+
+#user-details h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#user-details p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
