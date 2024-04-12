@@ -13,8 +13,7 @@ document.getElementById('login-form').addEventListener('submit', function(event)
     if (username === storedUsername && password === storedPassword) {
         alert('Login successful!');
         // Redirect to dashboard or home page
-        // Replace 'dashboard.html' with the actual dashboard or home page URL
-        window.location.href = 'dashboard.html';
+        window.location.href = 'user_dashboard.html';
     } else {
         alert('Invalid username or password. Please try again.');
     }
