@@ -1,20 +1,74 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Collector</title>
-    <link rel="stylesheet" href="welcome_styles.css">
+    <style>
+        /* Reset default margin and padding */
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Set default font family */
+        body {
+            font-family: Arial, sans-serif;
+            color: #fff; /* Set text color to white */
+            background-image: url('welcome_background.jpg'); /* Add background image */
+            background-size: cover;
+            background-attachment: fixed; /* Ensure the background image stays fixed while scrolling */
+        }
+
+        /* Container for content */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center; /* Center align content */
+        }
+
+        /* Styling for buttons */
+        .user-login-btn,
+        .admin-login-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .user-login-btn:hover,
+        .admin-login-btn:hover {
+            background-color: #0056b3; /* Darker shade of blue on hover */
+        }
+
+        /* About Us section */
+        #about-us {
+            margin-top: 50px; /* Add space between buttons and About Us section */
+        }
+
+        #about-us h2,
+        #about-us p {
+            color: #fff; /* Set text color to white */
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to Collector</h1>
+        <h1 style="color: #fff;">Welcome to Collector</h1>
         <a href="login.html" class="user-login-btn">User Login</a>
-        <a href="admin_login.html" class="admin-login-btn">Collecter Login</a>
+        <a href="admin_login.html" class="admin-login-btn">Collector Login</a>
         <section id="about-us">
             <h2>About Us</h2>
             <p>Collector is a private waste pickup company located in Mangalore, Karnataka, India. We provide convenient and efficient waste collection services to individuals and businesses in the region.</p>
         </section>
     </div>
 </body>
-</html>>
+</html>
