@@ -7,7 +7,7 @@ html, body {
 /* Set default font family */
 body {
     font-family: Arial, sans-serif;
-    background-image: url('collector-background.jpg'); /* Add background image */
+    background-image: url('collector_background.jpg'); /* Add background image */
     background-size: cover;
     background-attachment: fixed; /* Ensure the background image stays fixed while scrolling */
 }
